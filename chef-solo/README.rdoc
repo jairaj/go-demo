@@ -4,8 +4,8 @@ Cookbooks for Go Demo Environment Bootstrap
 chef-solo
 = Installation Steps
 == Install Chef: 
-== curl -L http://www.opscode.com/chef/install.sh | bash
+* curl -L http://www.opscode.com/chef/install.sh | bash
 
-# Apply cookbooks for appropriate roles
-## cd chef-solo
-## chef-solo -j solo.rb -c roles/<book-management.json>
+== Apply cookbooks for appropriate roles
+* cd chef-solo
+* chef-solo -j solo.rb -c roles/<book-management.json>
