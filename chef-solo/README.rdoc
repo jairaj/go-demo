@@ -3,8 +3,8 @@ Cookbooks for Go Demo Environment Bootstrap
 = REQUIREMENTS:
 chef-solo
 = Installation Steps
-# Install Chef: 
-## curl -L http://www.opscode.com/chef/install.sh | bash
+== Install Chef: 
+== curl -L http://www.opscode.com/chef/install.sh | bash
 
 # Apply cookbooks for appropriate roles
 ## cd chef-solo
